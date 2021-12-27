@@ -164,3 +164,95 @@ if(Scripture10Date == date.today()):
     push = pb.push_note('1 John 2:14', text)
 
 #--------------------------------------------------------
+
+#----------------------------------------------------------
+# 01/11/2022
+# (Psalm 36:9) is Scripture11Date
+# date.fromisoformat('yyyy-mm-dd')
+
+Scripture11Date = date.fromisoformat('2022-01-11')
+if(Scripture11Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scripture11.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Psalm 36:9', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 01/12/2022
+# (Matthew 24:9) is Scripture12Date
+# date.fromisoformat('yyyy-mm-dd')
+
+Scripture12Date = date.fromisoformat('2022-01-12')
+if(Scripture12Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scripture12.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Matthew 24:9', text)
+
+    file2 = "scripture12Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+        pb = Pushbullet(API_KEY)
+        push = pb.push_note("continued", text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 01/13/2022
+# (1 John 5:19) is Scripture13Date
+# date.fromisoformat('yyyy-mm-dd')
+
+Scripture13Date = date.fromisoformat('2022-01-13')
+if(Scripture13Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scripture13.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('1 John 5:19', text)
+
+    file2 = "scripture13Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+        pb = Pushbullet(API_KEY)
+        push = pb.push_note("continued", text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 01/14/2022
+# (Matthew 10:16) is Scripture14Date
+# date.fromisoformat('yyyy-mm-dd')
+
+Scripture14Date = date.fromisoformat('2022-01-14')
+if(Scripture14Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scripture14.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Matthew 10:16', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 01/15/2022
+# (2 Chronicles 14:6) is Scripture15Date
+# date.fromisoformat('yyyy-mm-dd')
+
+Scripture15Date = date.fromisoformat('2021-12-27')
+if(Scripture15Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scripture15.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('2 Chronicles 14:6', text)
+
+#--------------------------------------------------------
