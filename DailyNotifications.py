@@ -2327,8 +2327,8 @@ if(ScriptureMay11Date == date.today()):
 # (Acts 5:40) is ScriptureMay12Date
 # date.fromisoformat('yyyy-mm-dd')
 
-ScriptureMay11Date = date.fromisoformat('2022-05-12')
-if(ScriptureMay11Date == date.today()):
+ScriptureMay12Date = date.fromisoformat('2022-05-12')
+if(ScriptureMay12Date == date.today()):
     API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
     file = "scriptureMay12.txt"
     with open(file, mode='r') as f:
@@ -2337,6 +2337,483 @@ if(ScriptureMay11Date == date.today()):
     push = pb.push_note('Acts 5:40', text)
 
     file2 = "scriptureMay12Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('continued', text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/13/2022
+# (Hebrews 11:10) is ScriptureMay13Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay13Date = date.fromisoformat('2022-05-13')
+if(ScriptureMay13Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay13.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Hebrews 11:10', text)
+
+    file2 = "scriptureMay13Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('continued', text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/14/2022
+# (Romans 6:7) is ScriptureMay14Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay14Date = date.fromisoformat('2022-05-14')
+if(ScriptureMay14Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay14.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Romans 6:7', text)
+
+    file2 = "scriptureMay14Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('continued', text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/15/2022
+# (1 Corinthians 7:7) is ScriptureMay15Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay15Date = date.fromisoformat('2022-05-15')
+if(ScriptureMay15Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay15.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('1 Corinthians 7:7', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/16/2022
+# (Matthew 24:36) is ScriptureMay16Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay16Date = date.fromisoformat('2022-05-16')
+if(ScriptureMay16Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay16.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Matthew 24:36', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/17/2022
+# (2 Timothy 3:12) is ScriptureMay17Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay17Date = date.fromisoformat('2022-05-17')
+if(ScriptureMay17Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay17.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('2 Timothy 3:12', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/18/2022
+# (Proverbs 21:1) is ScriptureMay18Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay18Date = date.fromisoformat('2022-05-18')
+if(ScriptureMay18Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay18.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Proverbs 21:1', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/19/2022
+# (Matthew 28:19) is ScriptureMay19Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay19Date = date.fromisoformat('2022-05-19')
+if(ScriptureMay19Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay19.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Matthew 28:19', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/20/2022
+# (James 4:6) is ScriptureMay20Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay20Date = date.fromisoformat('2022-05-20')
+if(ScriptureMay20Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay20.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('James 4:6', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/21/2022
+# (Ecclesiates 12:1) is ScriptureMay21Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay21Date = date.fromisoformat('2022-05-21')
+if(ScriptureMay21Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay21.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Ecclesiastes 12:1', text)
+
+    file2 = "scriptureMay21Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('continued', text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/22/2022
+# (Luke 4:43) is ScriptureMay22Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay22Date = date.fromisoformat('2022-05-22')
+if(ScriptureMay22Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay22.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Luke 4:43', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/23/2022
+# (1 Corinthians 15:3,4) is ScriptureMay23Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay23Date = date.fromisoformat('2022-05-23')
+if(ScriptureMay23Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay23.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('1 Corinthians 15:3,4', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/24/2022
+# (Psalm 41:3) is ScriptureMay24Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay24Date = date.fromisoformat('2022-05-24')
+if(ScriptureMay24Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay24.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Psalm 41:3', text)
+
+    file2 = "scriptureMay24Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('continued', text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/25/2022
+# (Psalm 118:6) is ScriptureMay25Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay25Date = date.fromisoformat('2022-05-25')
+if(ScriptureMay25Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay25.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Psalm 118:6', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/26/2022
+# (Hebrews 6:19) is ScriptureMay26Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay26Date = date.fromisoformat('2022-05-26')
+if(ScriptureMay26Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay26.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Hebrews 6:19', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/27/2022
+# (James 5:11) is ScriptureMay27Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay27Date = date.fromisoformat('2022-05-27')
+if(ScriptureMay27Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay27.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('James 5:11', text)
+
+    file2 = "scriptureMay27Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('continued', text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/28/2022
+# (1 Peter 2:21) is ScriptureMay28Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay28Date = date.fromisoformat('2022-05-28')
+if(ScriptureMay28Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay28.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('1 Peter 2:21', text)
+
+    file2 = "scriptureMay28Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('continued', text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/29/2022
+# (Psalm 150:6) is ScriptureMay29Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay29Date = date.fromisoformat('2022-05-29')
+if(ScriptureMay29Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay29.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Psalm 150:6', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/30/2022
+# (1 Samuel 30:8) is ScriptureMay30Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay30Date = date.fromisoformat('2022-05-30')
+if(ScriptureMay30Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay30.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('1 Samuel 30:8', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 05/31/2022
+# (Romans 8:38,39) is ScriptureMay31Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureMay31Date = date.fromisoformat('2022-05-31')
+if(ScriptureMay31Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureMay31.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Romans 8:38,39', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 06/01/2022
+# (1 Thessalonians 2:8) is ScriptureJun1Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureJun1Date = date.fromisoformat('2022-06-01')
+if(ScriptureJun1Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureJun1.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('1 Thessalonians 2:8', text)
+
+    file2 = "scriptureJun1Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('continued', text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 06/02/2022
+# (Matthew 28:18) is ScriptureJun2Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureJun2Date = date.fromisoformat('2022-06-02')
+if(ScriptureJun2Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureJun2.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Matthew 28:18', text)
+
+    file2 = "scriptureJun2Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('continued', text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 06/03/2022
+# (2 Corinthians 12:10) is ScriptureJun3Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureJun3Date = date.fromisoformat('2022-06-03')
+if(ScriptureJun3Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureJun3.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('2 Corinthians 12:10', text)
+
+#--------------------------------------------------------
+
+
+#----------------------------------------------------------
+# 06/04/2022
+# (1 Corinthians 9:23) is ScriptureJun4Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureJun4Date = date.fromisoformat('2022-06-04')
+if(ScriptureJun4Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureJun4.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('1 Corinthians 9:23', text)
+
+    file2 = "scriptureJun4Continued.txt"
+    with open(file2, mode='r') as f2:
+        text2 = f2.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('continued', text2)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 06/05/2022
+# (Daniel 12:1) is ScriptureJun5Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureJun5Date = date.fromisoformat('2022-06-05')
+if(ScriptureJun5Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureJun5.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Daniel 12:1', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 06/06/2022
+# (Psalm 135:13) is ScriptureJun6Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureJun6Date = date.fromisoformat('2022-06-06')
+if(ScriptureJun6Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureJun6.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Psalm 135:13', text)
+
+#--------------------------------------------------------
+
+#----------------------------------------------------------
+# 06/07/2022
+# (Colossians 3:13) is ScriptureJun6Date
+# date.fromisoformat('yyyy-mm-dd')
+
+ScriptureJun7Date = date.fromisoformat('2022-06-07')
+if(ScriptureJun7Date == date.today()):
+    API_KEY = "o.LqGwAtH8QWLr5KyqYeYCHgxXElxhMkGn"
+    file = "scriptureJun7.txt"
+    with open(file, mode='r') as f:
+        text = f.read()
+    pb = Pushbullet(API_KEY)
+    push = pb.push_note('Colossians 3:13', text)
+
+    file2 = "scriptureJun7Continued.txt"
     with open(file2, mode='r') as f2:
         text2 = f2.read()
     pb = Pushbullet(API_KEY)
